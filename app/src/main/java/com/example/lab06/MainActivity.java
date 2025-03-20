@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         countryList.add(new Country("United States", "320,000,000", R.drawable.usa_flag));
         countryList.add(new Country("Russia", "142,000,000", R.drawable.russia_flag));
         countryList.add(new Country("Kazakhstan", "20000000", R.drawable.kazakhstan_flag));
+        countryList.add(new Country("Ozim", "1", R.drawable.ozim_photom));
 
         CountryAdapter CountryAdapter = new CountryAdapter(countryList);
 
